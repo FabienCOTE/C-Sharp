@@ -5,3 +5,10 @@ C:\Users\Fabien\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.cspro
 C:\Users\Fabien\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
 C:\Users\Fabien\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.exe
 C:\Users\Fabien\source\repos\ConsoleApp4\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\4 - Boucles\ConsoleApp4\obj\Debug\ConsoleApp4.pdb

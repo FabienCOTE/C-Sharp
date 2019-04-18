@@ -10,14 +10,12 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
-            var test = new Program();
-            test.Choice();
+            Choice();
         }
 
         // Choix de l'exercice
-        public void Choice()
+        public static void Choice()
         {
-            var test = new Program();
             Console.WriteLine("indiquer l'excercice que vous voulez ouvrir :");
             Console.WriteLine("Exercice 1 à 8");
             string value = Console.ReadLine();
@@ -27,28 +25,28 @@ namespace ConsoleApp4
                 switch (exo)
                 {
                     case 1:
-                        test.Exo1();
+                        Exo1();
                         break;
                     case 2:
-                        test.Exo2();
+                        Exo2();
                         break;
                     case 3:
-                        test.Exo3();
+                        Exo3();
                         break;
                     case 4:
-                        test.Exo4();
+                        Exo4();
                         break;
                     case 5:
-                        test.Exo5();
+                        Exo5();
                         break;
                     case 6:
-                        test.Exo6();
+                        Exo6();
                         break;
                     case 7:
-                        test.Exo7();
+                        Exo7();
                         break;
                     case 8:
-                        test.Exo8();
+                        Exo8();
                         break;
                     default:
                         Console.WriteLine("Erreur");
@@ -59,13 +57,12 @@ namespace ConsoleApp4
             {
                 Console.WriteLine("Erreur");
             }
-            test.Exit();
+            Exit();
         }
 
         // Quitter la console
-        public void Exit()
+        public static void Exit()
         {
-            var test = new Program();
             Console.WriteLine("\nVoulez-vous quitter ? (y/n)");
             string exit = Console.ReadLine();
             if (exit == "y")
@@ -74,16 +71,16 @@ namespace ConsoleApp4
             }
             else if (exit == "n")
             {
-                test.Choice();
+                Choice();
             }
             else
             {
                 Console.WriteLine("Erreur, merci de recommencer");
-                test.Exit();
+                Exit();
             }
         }
 
-        public void Exo1()
+        public static void Exo1()
         {
             Console.WriteLine("A l'aide de l'instruction while, faire en sorte d'afficher 10 fois le message suivant dans la console :");
             Console.WriteLine("Bonjour, je ne suis qu'un simple message.");
@@ -96,7 +93,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo2()
+        public static void Exo2()
         {
             Console.WriteLine("A l'aide de l'instruction while, faire en sorte d'afficher 10 fois le message suivant dans la console :");
             Console.WriteLine("Bonjour, je suis le message n°1.");
@@ -112,7 +109,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo3()
+        public static void Exo3()
         {
             Console.WriteLine("A l'aide de l'instruction for, faire en sorte d'afficher 10 fois le message suivant dans la console :");
             Console.WriteLine("Bonjour, je suis un message généré à l'aide d'une boucle.");
@@ -124,7 +121,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo4()
+        public static void Exo4()
         {
             Console.WriteLine("A l'aide de l'instruction for, faire en sorte d'afficher un décompte en partant de 10. Ex.");
             Console.WriteLine("10");
@@ -139,7 +136,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo5()
+        public static void Exo5()
         {
             Console.WriteLine("Créer un tableau 'week' contenant les jours de la semaine : Lundi, Mardi, Mercredi...");
             Console.WriteLine("A l’aide d'une boucle while ou for, faire en sorte d'afficher les éléments du tableau week dans la console:");
@@ -155,7 +152,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo6()
+        public static void Exo6()
         {
             Console.WriteLine("Créer un tableau 'months' contenant les 12 mois de l'année : Janvier, Février, Mars ...");
             Console.WriteLine("A l'aide d'une boucle foreach, faire en sorte d'afficher les éléments du tableau months dans la console :");
@@ -171,7 +168,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo7()
+        public static void Exo7()
         {
             Console.WriteLine("Créer un tableau 'numbers' contenant des chiffres de 1 jusqu'à 20 : 1, 2, 3, 4, 5 ...");
             Console.WriteLine("A l'aide d'une boucle, faire en sorte d'afficher uniquement les 10 premiers chiffres du tableau 'numbers'.");
@@ -187,7 +184,7 @@ namespace ConsoleApp4
             }
         }
 
-        public void Exo8()
+        public static void Exo8()
         {
             Console.WriteLine("Créer un tableau 'pairs' contenant des chiffres de 1 jusqu'à 20 : 1, 2, 3, 4, 5 ...");
             Console.WriteLine("A l'aide d'une boucle, faire en sorte d'afficher uniquement les chiffres pairs du tableau 'pairs'.");

@@ -10,14 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var test = new Program();
-            test.Choice();
+            Choice();
         }
 
         // Choix de l'exercice
-        public void Choice()
+        public static void Choice()
         {
-            var test = new Program();
             Console.WriteLine("indiquer l'excercice que vous voulez ouvrir :");
             Console.WriteLine("Exercice 1 à 8");
             string value = Console.ReadLine();
@@ -27,28 +25,28 @@ namespace ConsoleApp1
                 switch (exo)
                 {
                     case 1:
-                        test.Exo1();
+                        Exo1();
                         break;
                     case 2:
-                        test.Exo2();
+                        Exo2();
                         break;
                     case 3:
-                        test.Exo3();
+                        Exo3();
                         break;
                     case 4:
-                        test.Exo4();
+                        Exo4();
                         break;
                     case 5:
-                        test.Exo5();
+                        Exo5();
                         break;
                     case 6:
-                        test.Exo6();
+                        Exo6();
                         break;
                     case 7:
-                        test.Exo7();
+                        Exo7();
                         break;
                     case 8:
-                        test.Exo8();
+                        Exo8();
                         break;
                     default:
                         Console.WriteLine("Erreur");
@@ -59,11 +57,11 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Erreur");
             }
-            test.Exit();
+            Exit();
         }
 
         // Quitter la console
-        public void Exit()
+        public static void Exit()
         {
             var test = new Program();
             Console.WriteLine("\nVoulez-vous quitter ? (y/n)");
@@ -74,16 +72,16 @@ namespace ConsoleApp1
             }
             else if (exit == "n")
             {
-                test.Choice();
+                Choice();
             }
             else
             {
                 Console.WriteLine("Erreur, merci de recommencer");
-                test.Exit();
+                Exit();
             }
         }
 
-        public void Exo1()
+        public static void Exo1()
         {
             Console.WriteLine("Exercice 1");
             Console.WriteLine("Créer 2 nombres a et b, puis leur attribuer une valeur.");
@@ -97,7 +95,7 @@ namespace ConsoleApp1
             Console.WriteLine("La somme des deux nombres est " + (a + b));
         }
 
-        public void Exo2()
+        public static void Exo2()
         {
             Console.WriteLine("Exercice 2");
             Console.WriteLine("Créer 3 nombres x, y et z en leur attribuant la valeur de votre choix.");
@@ -114,7 +112,7 @@ namespace ConsoleApp1
             Console.WriteLine("Le résultat est " + b);
         }
 
-        public void Exo3()
+        public static void Exo3()
         {
             Console.WriteLine("Exercice 3");
             Console.WriteLine("Créer 2 nombres a et b. Via la console, demander à l’utilisateur de renseigner ces nombres à l’aide de 2 phrases distinctes.");
@@ -137,7 +135,7 @@ namespace ConsoleApp1
             Console.WriteLine("Le résultat de la division d'a par b est de " + d);
         }
 
-        public void Exo4()
+        public static void Exo4()
         {
             Console.WriteLine("Exercice 4");
             Console.WriteLine("Créer 3 variables contenant respectivement les éléments suivants :");
@@ -153,7 +151,7 @@ namespace ConsoleApp1
             Console.WriteLine("Bonjour " + gender + " " + firstname + ", vous êtes venu nous rendre visite " + visit + " fois");
         }
 
-        public void Exo5()
+        public static void Exo5()
         {
             Console.WriteLine("Exercice 5");
             Console.WriteLine("Via la console, demander à l’utilisateur de renseigner son nom et son prénom.");
@@ -167,7 +165,7 @@ namespace ConsoleApp1
             Console.WriteLine("Bonjour " + lastname + " " + firstname + ", nous sommes le " + DateTime.Today.ToLongDateString() + ", comment allez-vous ?");
         }
 
-        public void Exo6()
+        public static void Exo6()
         {
             Console.WriteLine("Exercice 6");
             Console.WriteLine("Via la console, demande à l’utilisateur de renseigner son nom, son prénom et son année de naissance.");
@@ -188,7 +186,7 @@ namespace ConsoleApp1
             Console.WriteLine("Fiches de renseignement\nNom : " + lastname + "\nPrénom : " + firstname + "\nAge : " + age);
         }
 
-        public void Exo7()
+        public static void Exo7()
         {
             Console.WriteLine("Exercice 7");
             Console.WriteLine("Soit un triangle ABC qui est rectangle en C.");
@@ -211,7 +209,7 @@ namespace ConsoleApp1
             Console.WriteLine("La longueur de AB est égal à : " + value3);
         }
 
-        public void Exo8()
+        public static void Exo8()
         {
             Console.WriteLine("Exercice 8");
             Console.WriteLine("Via la console, demander à l’utilisateur de renseigner le rayon r d’un cercle.");

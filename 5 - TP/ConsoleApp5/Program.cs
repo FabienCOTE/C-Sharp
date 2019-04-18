@@ -8,17 +8,14 @@ namespace ConsoleApp5
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            var test = new Program();
-            test.Choice();
+            Choice();
         }
 
         // Choix de l'exercice
-        public void Choice()
+        public static void Choice()
         {
-            var test = new Program();
             Console.WriteLine("indiquer le TP que vous voulez ouvrir :");
             Console.WriteLine("TP 1 à 2");
             string value = Console.ReadLine();
@@ -28,10 +25,10 @@ namespace ConsoleApp5
                 switch (exo)
                 {
                     case 1:
-                        test.TP1();
+                        TP1();
                         break;
                     case 2:
-                        test.TP2();
+                        TP2();
                         break;
                     default:
                         Console.WriteLine("Erreur");
@@ -42,13 +39,12 @@ namespace ConsoleApp5
             {
                 Console.WriteLine("Erreur");
             }
-            test.Exit();
+            Exit();
         }
 
         // Quitter la console
-        public void Exit()
+        public static void Exit()
         {
-            var test = new Program();
             Console.WriteLine("\nVoulez-vous quitter ? (y/n)");
             string exit = Console.ReadLine();
             if (exit == "y")
@@ -57,16 +53,16 @@ namespace ConsoleApp5
             }
             else if (exit == "n")
             {
-                test.Choice();
+                Choice();
             }
             else
             {
                 Console.WriteLine("Erreur, merci de recommencer");
-                test.Exit();
+                Exit();
             }
         }
 
-        public void TP1()
+        public static void TP1()
         {
             Console.WriteLine("TP 1");
             Console.WriteLine("Faire une application console pour calculer l'IMC de l'utilisateur.");
@@ -128,9 +124,8 @@ namespace ConsoleApp5
             }
         }
 
-        public void TP2()
+        public static void TP2()
         {
-            var test = new Program();
             int count = 1;
             bool answer = false;
             Console.WriteLine("TP 2");
@@ -145,7 +140,7 @@ namespace ConsoleApp5
 
             while (!answer)
             {
-                int result = test.Message();
+                int result = Message();
 
                 if (result == game)
                 {
@@ -166,7 +161,7 @@ namespace ConsoleApp5
             }
         }
 
-        public int Message()
+        public static int Message()
         {
             Console.WriteLine("Veuillez saisir un nombre entre 1 et 50");
             string value = Console.ReadLine();

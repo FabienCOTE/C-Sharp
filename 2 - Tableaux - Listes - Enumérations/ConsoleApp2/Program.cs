@@ -10,14 +10,12 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            var test = new Program();
-            test.Choice();
+            Choice();
         }
 
         // Choix de l'exercice
-        public void Choice()
+        public static void Choice()
         {
-            var test = new Program();
             Console.WriteLine("indiquer l'excercice que vous voulez ouvrir :");
             Console.WriteLine("Exercice 1 à 8");
             string value = Console.ReadLine();
@@ -27,28 +25,28 @@ namespace ConsoleApp2
                 switch (exo)
                 {
                     case 1:
-                        test.Exo1();
+                        Exo1();
                         break;
                     case 2:
-                        test.Exo2();
+                        Exo2();
                         break;
                     case 3:
-                        test.Exo3();
+                        Exo3();
                         break;
                     case 4:
-                        test.Exo4();
+                        Exo4();
                         break;
                     case 5:
-                        test.Exo5();
+                        Exo5();
                         break;
                     case 6:
-                        test.Exo6();
+                        Exo6();
                         break;
                     case 7:
-                        test.Exo7();
+                        Exo7();
                         break;
                     case 8:
-                        test.Exo8();
+                        Exo8();
                         break;
                     default:
                         Console.WriteLine("Erreur");
@@ -59,13 +57,12 @@ namespace ConsoleApp2
             {
                 Console.WriteLine("Erreur");
             }
-            test.Exit();
+            Exit();
         }
 
         // Quitter la console
-        public void Exit()
+        public static void Exit()
         {
-            var test = new Program();
             Console.WriteLine("\nVoulez-vous quitter ? (y/n)");
             string exit = Console.ReadLine();
             if (exit == "y")
@@ -74,16 +71,16 @@ namespace ConsoleApp2
             }
             else if (exit == "n")
             {
-                test.Choice();
+                Choice();
             }
             else
             {
                 Console.WriteLine("Erreur, merci de recommencer");
-                test.Exit();
+                Exit();
             }
         }
 
-        public void Exo1()
+        public static void Exo1()
         {
             Console.WriteLine("Exercice 1");
             Console.WriteLine("Créer un tableau « week » contenant les jours suivant :");
@@ -98,7 +95,7 @@ namespace ConsoleApp2
             string[] week = new string[] { "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche" };
         }
 
-        public void Exo2()
+        public static void Exo2()
         {
             Console.WriteLine("Exercice 2");
             Console.WriteLine("Créer un tableau « week » contenant les jours suivant :");
@@ -116,7 +113,7 @@ namespace ConsoleApp2
             Console.WriteLine(week[4]);
         }
 
-        public void Exo3()
+        public static void Exo3()
         {
             Console.WriteLine("Exercice 3");
             Console.WriteLine("Créer un tableau « week » contenant les jours suivant :");
@@ -150,7 +147,7 @@ namespace ConsoleApp2
             Console.WriteLine(week[6]);
         }
 
-        public void Exo4()
+        public static void Exo4()
         {
             Console.WriteLine("Exercice 4");
             Console.WriteLine("Créer une liste « shopping » contenant les éléments suivants :");
@@ -165,7 +162,7 @@ namespace ConsoleApp2
             Console.WriteLine(shopping[2]);
         }
 
-        public void Exo5()
+        public static void Exo5()
         {
             Console.WriteLine("Exercice 5");
             Console.WriteLine("Créer une liste « numbers » contenant les éléments suivants :");
@@ -219,7 +216,7 @@ namespace ConsoleApp2
             Dimanche
         }
 
-        public void Exo6()
+        public static void Exo6()
         {
             Console.WriteLine("Exercice 6");
             Console.WriteLine("Créer une énumération « week » contenant les éléments suivants :");
@@ -241,7 +238,7 @@ namespace ConsoleApp2
             Console.WriteLine(week.Dimanche);
         }
 
-        public void Exo7()
+        public static void Exo7()
         {
             Console.WriteLine("Exercice 7");
             Console.WriteLine("Créer une énumération « week » contenant les éléments suivants :");
@@ -265,7 +262,7 @@ namespace ConsoleApp2
             Console.WriteLine(Enum.GetName(typeof(week), 4));
         }
 
-        public void Exo8()
+        public static void Exo8()
         {
             Console.WriteLine("Exercice 8");
             Console.WriteLine("Créer une énumération « week » contenant les éléments suivants :");
@@ -280,7 +277,6 @@ namespace ConsoleApp2
             Console.WriteLine("Afficher la valeur 4 de l’énumération « week ».");
             Console.WriteLine("- - - - - - - - - - - - - - - - - - - -\n");
             Console.WriteLine(Enum.GetName(typeof(weekModif), 4));
-
         }
     }
 }

@@ -10,14 +10,12 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            var test = new Program();
-            test.Choice();
+            Choice();
         }
 
         // Choix de l'exercice
-        public void Choice()
+        public static void Choice()
         {
-            var test = new Program();
             Console.WriteLine("indiquer l'excercice que vous voulez ouvrir :");
             Console.WriteLine("Exercice 1 à 6");
             string value = Console.ReadLine();
@@ -27,22 +25,22 @@ namespace ConsoleApp3
                 switch (exo)
                 {
                     case 1:
-                        test.Exo1();
+                        Exo1();
                         break;
                     case 2:
-                        test.Exo2();
+                        Exo2();
                         break;
                     case 3:
-                        test.Exo3();
+                        Exo3();
                         break;
                     case 4:
-                        test.Exo4();
+                        Exo4();
                         break;
                     case 5:
-                        test.Exo5();
+                        Exo5();
                         break;
                     case 6:
-                        test.Exo6();
+                        Exo6();
                         break;
                     default:
                         Console.WriteLine("Erreur");
@@ -53,13 +51,12 @@ namespace ConsoleApp3
             {
                 Console.WriteLine("Erreur");
             }
-            test.Exit();
+            Exit();
         }
 
         // Quitter la console
-        public void Exit()
+        public static void Exit()
         {
-            var test = new Program();
             Console.WriteLine("\nVoulez-vous quitter ? (y/n)");
             string exit = Console.ReadLine();
             if (exit == "y")
@@ -68,16 +65,16 @@ namespace ConsoleApp3
             }
             else if (exit == "n")
             {
-                test.Choice();
+                Choice();
             }
             else
             {
                 Console.WriteLine("Erreur, merci de recommencer");
-                test.Exit();
+                Exit();
             }
         }
 
-        public void Exo1()
+        public static void Exo1()
         {
             Console.WriteLine("Exercice 1");
             Console.WriteLine("Créer une variable rainy, puis lui attribuer une valeur booléenne: vrai ou faux.");
@@ -97,7 +94,7 @@ namespace ConsoleApp3
 
         }
 
-        public void Exo2()
+        public static void Exo2()
         {
             Console.WriteLine("Exercice 2");
             Console.WriteLine("A l’aide de la console, inviter l’utilisateur à renseigner son âge.");
@@ -119,7 +116,7 @@ namespace ConsoleApp3
             }
         }
 
-        public void Exo3()
+        public static void Exo3()
         {
             Console.WriteLine("Exercice 3");
             Console.WriteLine("A l’aide de la console, inviter l’utilisateur à renseigner son âge et son sexe(homme ou femme).");
@@ -163,7 +160,7 @@ namespace ConsoleApp3
 
         }
 
-        public void Exo4()
+        public static void Exo4()
         {
             Console.WriteLine("Exercice 4");
             Console.WriteLine("Créer 2 variables: login et password, et leurs attribuer une valeur.");
@@ -189,7 +186,7 @@ namespace ConsoleApp3
 
         }
 
-        public void Exo5()
+        public static void Exo5()
         {
             Console.WriteLine("Exercice 5");
             Console.WriteLine("Créer le tableau 'fujita' suivant:");
@@ -240,7 +237,7 @@ namespace ConsoleApp3
             }
         }
 
-        public void Exo6()
+        public static void Exo6()
         {
             Console.WriteLine("Exercice 6");
             Console.WriteLine("A l’aide de la console, inviter l’utilisateur à renseigner un mois parmi les 12 mois de disponibles.");

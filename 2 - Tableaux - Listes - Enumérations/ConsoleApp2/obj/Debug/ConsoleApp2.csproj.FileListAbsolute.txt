@@ -5,3 +5,10 @@ C:\Users\Fabien\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.cspro
 C:\Users\Fabien\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 C:\Users\Fabien\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\Fabien\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\2 - Tableaux - Listes - Enumérations\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

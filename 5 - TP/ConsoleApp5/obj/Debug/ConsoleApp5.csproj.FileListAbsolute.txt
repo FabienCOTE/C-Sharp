@@ -5,3 +5,10 @@ C:\Users\Fabien\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.cspro
 C:\Users\Fabien\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
 C:\Users\Fabien\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.exe
 C:\Users\Fabien\source\repos\ConsoleApp5\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\bin\Debug\ConsoleApp5.exe.config
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\bin\Debug\ConsoleApp5.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\bin\Debug\ConsoleApp5.pdb
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\obj\Debug\ConsoleApp5.csprojAssemblyReference.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\obj\Debug\ConsoleApp5.csproj.CoreCompileInputs.cache
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\obj\Debug\ConsoleApp5.exe
+C:\Users\Fabien\Desktop\La Manu\CDA\C#\5 - TP\ConsoleApp5\obj\Debug\ConsoleApp5.pdb
